@@ -16,6 +16,7 @@
     {
         columns.AddFor(m => m.ProductId);
         columns.AddFor(m => m.ProductName);
+        columns.AddFor(m => m.Description);
     })
     .Paging(p => p.PageSize(10))
     .Pager(p => p

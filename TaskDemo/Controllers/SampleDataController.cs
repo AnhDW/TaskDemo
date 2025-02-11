@@ -18,7 +18,7 @@ namespace TaskDemo.Controllers {
             return DataSourceLoader.Load(SampleData.Orders, loadOptions);
         }
 
-        [HttpGet]
+        [HttpGet("product")]
         public object GetProduct(DataSourceLoadOptions loadOptions)
         {
             return DataSourceLoader.Load(SampleData.Products, loadOptions);
